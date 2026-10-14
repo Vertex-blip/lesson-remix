@@ -15,7 +15,7 @@ The editor starts with a clearly editable sample lesson, *The art of noticing*. 
 
 ## Use
 
-Open `index.html` in a modern browser or visit the GitHub Pages site in this repository's About section. Edit the lesson, select **Student preview**, then select **Export lesson** to download an HTML file you can share or open without an internet connection.
+Visit the GitHub Pages site in this repository's About section. For local development, serve this folder over HTTP (for example, `python -m http.server 8000`) and open `http://localhost:8000`. The editor uses JavaScript modules, so opening its `index.html` directly with `file://` is not supported. Edit the lesson, select **Student preview**, then select **Export lesson** to download an HTML file you can share or open without an internet connection.
 
 ## Privacy and safety
 
