@@ -8,11 +8,12 @@
   <title>LessonRemix — make learning move</title>
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./brand.css" />
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <a class="brand" href="#top" aria-label="LessonRemix home"><span class="brand-icon" aria-hidden="true">✳</span><span>lesson<span>remix</span></span></a>
+      <a class="brand" href="#top" aria-label="LessonRemix home"><svg class="brand-symbol" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path class="symbol-frame" d="M7 6v27h27"/><path class="symbol-top" d="M13 10h19v6H13z"/><path class="symbol-middle" d="M18 20h16v6H18z"/></svg><span>lesson<span>remix</span></span></a>
       <div class="sidebar-middle">
         <span class="nav-caption">WORKSPACE</span>
         <button class="nav-item active" id="nav-editor" type="button"><span>▣</span> Editor</button>
@@ -32,7 +33,7 @@
         <section class="blocks-section" aria-labelledby="blocks-heading"><div class="blocks-heading"><div><span class="micro-label">02 / THE EXPERIENCE</span><h2 id="blocks-heading">Lesson blocks <span id="block-count">0</span></h2><p>Mix reading, questions, and reflection. Dragging isn't needed; use the move buttons below.</p></div><button id="add-slide-top" class="button button-outline" type="button">+ Add block</button></div><div id="block-list" class="block-list"></div><div class="add-zone"><div class="add-zone-icon">+</div><div><strong>Keep the momentum going</strong><p>Add another moment to your lesson.</p></div><button id="add-slide-bottom" class="button button-dark" type="button">Add a block <span>→</span></button></div></section>
         <div class="bottom-actions"><button class="text-action" id="new-lesson" type="button">Start a new lesson</button><div><button class="text-action" id="export-json" type="button">Download project JSON</button><button class="button button-primary" id="export-html-bottom" type="button">Export lesson <span>↗</span></button></div></div>
       </div>
-      <div id="preview-view" class="view" hidden><div class="preview-heading"><div><span class="eyebrow">STUDENT VIEW <span class="eyebrow-star">✳</span></span><h1>See it through <em>their eyes.</em></h1><p>Try the lesson exactly as a learner would.</p></div><button class="button button-soft" id="back-editor" type="button">← Back to editor</button></div><div class="player-frame"><div class="player-top"><span class="player-logo">✳ lesson<span>remix</span></span><span id="player-count">1 / 1</span></div><div class="player-progress"><span id="player-progress-fill"></span></div><div class="player-body" id="player-body"></div><div class="player-controls"><button class="button button-soft" id="player-prev" type="button">← Previous</button><button class="button button-primary" id="player-next" type="button">Next <span>→</span></button></div></div></div>
+      <div id="preview-view" class="view" hidden><div class="preview-heading"><div><span class="eyebrow">STUDENT VIEW <span class="eyebrow-star">↗</span></span><h1>See it through <em>their eyes.</em></h1><p>Try the lesson exactly as a learner would.</p></div><button class="button button-soft" id="back-editor" type="button">← Back to editor</button></div><div class="player-frame"><div class="player-top"><span class="player-logo"><svg class="player-symbol" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path class="symbol-frame" d="M7 6v27h27"/><path class="symbol-top" d="M13 10h19v6H13z"/><path class="symbol-middle" d="M18 20h16v6H18z"/></svg>lesson<span>remix</span></span><span id="player-count">1 / 1</span></div><div class="player-progress"><span id="player-progress-fill"></span></div><div class="player-body" id="player-body"></div><div class="player-controls"><button class="button button-soft" id="player-prev" type="button">← Previous</button><button class="button button-primary" id="player-next" type="button">Next <span>→</span></button></div></div></div>
       <footer class="workspace-footer"><span>LessonRemix © 2026</span><span>Creativity belongs in every classroom.</span></footer>
     </main>
   </div>

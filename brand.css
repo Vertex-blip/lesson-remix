@@ -1,0 +1,55 @@
+.brand {
+  gap: 11px;
+  letter-spacing: -1.25px;
+}
+
+.brand-symbol,
+.player-symbol {
+  display: block;
+  flex: none;
+  overflow: visible;
+}
+
+.brand-symbol {
+  width: 35px;
+  height: 35px;
+  color: #fcf7f0;
+}
+
+.brand-symbol .symbol-frame,
+.player-symbol .symbol-frame {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3.2;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}
+
+.brand-symbol .symbol-top,
+.player-symbol .symbol-top {
+  fill: #f0a476;
+}
+
+.brand-symbol .symbol-middle,
+.player-symbol .symbol-middle {
+  fill: currentColor;
+}
+
+.player-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.player-symbol {
+  width: 23px;
+  height: 23px;
+  color: #2b193e;
+}
+
+@media (max-width: 760px) {
+  .brand-symbol {
+    width: 32px;
+    height: 32px;
+  }
+}
